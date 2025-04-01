@@ -1,0 +1,19 @@
+.form-login-container {
+  max-width: 450px;
+  width: 95vw;
+  background: var(--bg-contrast);
+  box-shadow: 0 .3rem 1rem var(--neon-emphasis-shadow-container) !important;
+}
+
+.logo {
+  width: 160px;
+  height: 160px;
+  margin: 0 auto;
+}
+
+
+@media(max-width: 768px) {
+  .form-login-container {
+    min-height: 98vh;
+  }
+}
